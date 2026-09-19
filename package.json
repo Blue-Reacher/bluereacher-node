@@ -1,0 +1,50 @@
+{
+  "name": "bluereacher",
+  "version": "0.1.0",
+  "description": "Official TypeScript SDK for the Blue Reacher API: send iMessage from your CRM, app, or AI agent over a dedicated line.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "imessage",
+    "sms",
+    "rcs",
+    "api",
+    "sdk",
+    "bluereacher",
+    "messaging"
+  ],
+  "author": "Sagency International LLC (Blue Reacher)",
+  "license": "MIT",
+  "homepage": "https://docs.bluereacher.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Blue-Reacher/bluereacher-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Blue-Reacher/bluereacher-node/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0"
+  }
+}
