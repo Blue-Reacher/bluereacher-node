@@ -1,6 +1,6 @@
 {
   "name": "bluereacher",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Official TypeScript SDK for the Blue Reacher API: send iMessage from your CRM, app, or AI agent over a dedicated line.",
   "type": "module",
   "main": "./dist/index.js",
