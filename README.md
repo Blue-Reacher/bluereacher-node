@@ -195,4 +195,4 @@ npm run build       # emits dist/
 
 ## License
 
-MIT. Copyright 2026 Sagency International LLC (Blue Reacher).
+MIT. Copyright 2026 Blue Reacher.
